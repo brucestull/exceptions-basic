@@ -34,4 +34,5 @@ except Exception as e:
 try:
     print("check_value_is_integer(PI): ", check_value_is_integer(PI))
 except Exception as e:
+    print("\nAttempted to run check_value_is_integer(PI) and got an exception:")
     print(e)
